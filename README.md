@@ -28,27 +28,21 @@ Instead of rejecting borrowers purely based on predicted default risk, the syste
 
 ---
 
-## Model Pipeline
+## Pipeline
 
-Borrower application data passes through the following modeling pipeline:
+The model follows a simple idea: a loan should be approved if the **expected profit from the loan is positive**.
 
-```
-Borrower Features
-        ↓
-Probability of Default Model
-        ↓
-Loss Given Default Estimation
-        ↓
-Exposure at Default (Loan Amount)
-        ↓
-Amortized Loan Cash Flow Modeling
-        ↓
-Expected Profit Calculation
-        ↓
-Loan Approval Decision
-```
+To estimate this, the system combines three components that are commonly used in credit risk modeling.
 
-Loans are approved when the **expected profit of issuing the loan is positive**.
+| Component | What it represents |
+|----------|-------------------|
+Probability of Default (PD) | The chance that the borrower will default on the loan |
+Loss Given Default (LGD) | The fraction of the loan likely lost if default occurs |
+Exposure at Default (EAD) | The amount of money exposed to loss (the loan principal) |
+
+Once these are estimated, the model calculates the expected profit of issuing the loan using the loan’s interest payments and the potential credit loss.
+
+Instead of simply rejecting borrowers with high default risk, the model evaluates whether the interest earned compensates for the risk taken.
 
 ---
 
