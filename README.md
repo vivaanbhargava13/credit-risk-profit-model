@@ -56,17 +56,6 @@ Expected Profit =
 − PD × LGD × Exposure at Default
 ```
 
-Where:
-
-**PD**  
-Predicted probability that the borrower defaults.
-
-**LGD**  
-Estimated percentage of the loan lost if default occurs.
-
-**EAD**  
-Loan principal exposed to loss.
-
 **Interest Income**  
 Interest earned through the amortized payment schedule if the borrower fully repays.
 
