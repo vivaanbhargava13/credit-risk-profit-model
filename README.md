@@ -6,7 +6,7 @@ End-to-end credit risk modeling project that predicts borrower default probabili
 
 ## Overview
 
-This project builds a credit underwriting model that predicts borrower default risk and determines loan approval decisions based on **expected profitability rather than simple default prediction**.
+This project builds a credit underwriting model that predicts borrower default risk and determines loan approval decisions based on expected profitability rather than simple default prediction.
 
 The model integrates core financial risk modeling concepts used in real lending systems:
 
@@ -15,7 +15,7 @@ The model integrates core financial risk modeling concepts used in real lending 
 - **Exposure at Default (EAD)**
 - **Amortized loan cash flow modeling**
 
-Instead of rejecting borrowers purely based on predicted default risk, the system evaluates whether issuing a loan is **expected to generate positive profit after accounting for potential credit losses**.
+Instead of rejecting borrowers purely based on predicted default risk, the system evaluates whether issuing a loan is expected to generate positive profit after accounting for potential credit losses.
 
 ---
 
@@ -30,7 +30,7 @@ Instead of rejecting borrowers purely based on predicted default risk, the syste
 
 ## Pipeline
 
-The model follows a simple idea: a loan should be approved if the **expected profit from the loan is positive**.
+The model follows a simple idea: a loan should be approved if the expected profit from the loan is positive.
 
 To estimate this, the system combines three components that are commonly used in credit risk modeling.
 
@@ -59,7 +59,7 @@ Expected Profit =
 **Interest Income**  
 Interest earned through the amortized payment schedule if the borrower fully repays.
 
-This mirrors simplified versions of models used in **consumer lending, credit cards, and structured finance**.
+This mirrors simplified versions of models used in consumer lending, credit cards, and structured finance.
 
 ---
 
@@ -75,7 +75,7 @@ CreditScore × DTI | Interaction between credit quality and debt burden |
 InterestBurden | Loan interest relative to borrower income |
 CreditLinesPerYearEmployed | Credit utilization relative to employment stability |
 
-These features help capture **borrower repayment stress and financial leverage**.
+These features help capture borrower repayment stress and financial leverage.
 
 ---
 
@@ -100,7 +100,7 @@ The dataset contains borrower-level loan application information including:
 - Loan Purpose
 - Co-signer Presence
 
-Each record includes a **Default indicator** showing whether the borrower ultimately defaulted.
+Each record includes a Default indicator showing whether the borrower ultimately defaulted.
 
 ---
 
@@ -154,7 +154,7 @@ Two models were evaluated:
 - More complex model structure
 - Less interpretable
 
-Logistic regression was retained as the primary model due to its **interpretability and stability in credit risk modeling**.
+Logistic regression was retained as the primary model due to its interpretability and stability in credit risk modeling.
 
 ---
 
@@ -184,4 +184,4 @@ Possible extensions include:
 
 ## Author
 
-Developed as a personal project exploring **machine learning applications in financial risk modeling and lending decision systems**.
+Developed as a personal project exploring machine learning applications in financial risk modeling and lending decision systems.
