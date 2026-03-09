@@ -58,6 +58,12 @@ $$
 **Interest Income**  
 Interest earned through the amortized payment schedule if the borrower fully repays.
 
+Interest income is computed using the amortized payment schedule:
+
+$$
+\text{Interest Income} = (\text{Monthly Payment} \times \text{Loan Term}) - \text{Loan Amount}
+$$
+
 This mirrors simplified versions of models used in consumer lending, credit cards, and structured finance.
 
 ---
