@@ -50,11 +50,10 @@ Instead of simply rejecting borrowers with high default risk, the model evaluate
 
 Expected loan profit is calculated using:
 
-```
-Expected Profit =
-(1 − PD) × Interest Income
-− PD × LGD × Exposure at Default
-```
+
+$$
+\text{Expected Profit} = (1 - PD) \times \text{Interest Income} - PD \times LGD \times EAD
+$$
 
 **Interest Income**  
 Interest earned through the amortized payment schedule if the borrower fully repays.
