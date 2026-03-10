@@ -191,6 +191,25 @@ Possible extensions include:
 
 ---
 
+## Repository Structure
+
+```
+credit-risk-profit-model
+│
+├── notebooks
+│   └── credit_risk_profit_model.ipynb
+│
+├── images
+│   ├── model_diagnostics.png
+│   └── ks_curve.png
+│
+├── README.md
+├── requirements.txt
+└── .gitignore
+```
+
+---
+
 ## Author
 
 Developed as a personal project exploring machine learning applications in financial risk modeling and lending decision systems.
