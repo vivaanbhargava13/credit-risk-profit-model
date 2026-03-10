@@ -21,10 +21,10 @@ Instead of rejecting borrowers purely based on predicted default risk, the syste
 
 ## Project Goals
 
-- Predict borrower **probability of default**
-- Model **expected credit losses**
-- Simulate **real-world lending decisions**
-- Optimize loan approvals based on **profitability**
+- Predict borrower probability of default
+- Model expected credit losses
+- Simulate real-world lending decisions
+- Optimize loan approvals based on profitability
 
 ---
 
