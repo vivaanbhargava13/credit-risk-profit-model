@@ -124,6 +124,10 @@ The model successfully separates high-risk borrowers while maintaining profitabl
 
 ## Evaluation Metrics
 
+![Model Diagnostics](images/model_diagnostics.png)
+![KS Curve](images/ks_curve.png)
+
+
 Several evaluation techniques were used:
 
 **ROC Curve (AUC)**  
