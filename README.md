@@ -36,9 +36,9 @@ To estimate this, the system combines three components that are commonly used in
 
 | Component | What it represents |
 |----------|-------------------|
-Probability of Default (PD) | The chance that the borrower will default on the loan |
-Loss Given Default (LGD) | The fraction of the loan likely lost if default occurs |
-Exposure at Default (EAD) | The amount of money exposed to loss (the loan principal) |
+| Probability of Default (PD) | The chance that the borrower will default on the loan |
+| Loss Given Default (LGD) | The fraction of the loan likely lost if default occurs |
+| Exposure at Default (EAD) | The amount of money exposed to loss (the loan principal) |
 
 Once these are estimated, the model calculates the expected profit of issuing the loan using the loan’s interest payments and the potential credit loss.
 
